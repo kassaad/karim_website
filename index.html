@@ -37,7 +37,10 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
-
+<script>
+	n =  new Date();
+	y = n.getFullYear()-2017
+	document.getElementById("date_experience").innerHTML = y;
 </head>
 
 <body>
@@ -62,7 +65,7 @@
           <li><a href="https://www.linkedin.com/in/kassaad"><i class="fa fa-linkedin"></i></a></li>
           <li><a href="https://www.facebook.com/karim.assaad.9"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://www.instagram.com/karimassaad/"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://twitter.com/karimassaad3"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://twitter.com/kassaad23"><i class="fa fa-twitter"></i></a></li>
           <li><a href="https://plus.google.com/108351122064995818673?hl"><i class="fa fa-google"></i></a></li>
         </ul>
       </div> <!-- /.social-icons -->
@@ -151,10 +154,7 @@
               </ul>
             </div>
 
-<!--            <div class="my-signature">
-              <img src="assets/images/sign.png" alt="">
-            </div>
--->
+
             <div class="download-button">
               <a class="btn btn-info btn-lg" href="./cv_francais_karim_assaad.pdf"><i class="fa fa-download"></i>download my cv in french</a>
               <a class="btn btn-primary btn-lg" href="./cv_anglais_karim_assaad.pdf"><i class="fa fa-download"></i>download my cv in english</a>
@@ -167,24 +167,6 @@
     </section><!-- End About Section -->
 
 
-    <!-- Video Section -->
-    <!--
-	<section id="video" class="video-section">
-      <div class="tf-bg-overlay">
-
-        <div class="container">
-
-          <div class="video-intro">
-             <a class="popup-video" href="https://www.youtube.com/watch?v=LGOjcu0HRec"> <i class="fa fa-play"></i>  </a>
-             <h2>Video Introducing</h2>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-	-->
-    <!-- /.Video Section -->
 
 
     <!-- Resume Section -->
@@ -693,7 +675,7 @@
               <div class="count-wrap">
                 <div class="col-sm-3 col-xs-6">
                   <i class="fa fa-flask"></i>
-                  <h3 class="timer">1</h3>
+                  <h3 class="timer" id="date_experience"></h3>
                   <p>Years of Experience</p>
                 </div>
                 <div class="col-sm-3 col-xs-6"> 
