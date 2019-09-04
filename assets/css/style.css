@@ -361,10 +361,10 @@ ul.list-check li::before {
 	font-size: 60px;
 	line-height: 80px;
 	margin-bottom: 16px;
-	color: #52b3d9;
+	color: #DC143C;
 }
 .intro h1 span{
-	color: #68c3a3;
+	color: 	#808080;
 }
 .intro p{
 	color: #f7f7f7;
