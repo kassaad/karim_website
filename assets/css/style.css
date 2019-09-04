@@ -191,7 +191,7 @@ h6 {
 
 /*btn-primary*/
 .btn-primary{
-    background-color:#68c3a3;
+    background-color:#C0C0C0;
     border-color: rgba(51, 51, 51, 0.15);
 }
 
@@ -234,7 +234,7 @@ h6 {
 .btn-default.focus, 
 .btn-default:active, 
 .btn-default.active{
-    color: #68c3a3;
+    color: #C0C0C0;
     background-color: #fff;
     border-color: #fff;
 }
@@ -280,7 +280,7 @@ ul.list-check li{
 ul.list-check li::before {
     content: "\f00c";
     font-family: fontawesome;
-    color: #68c3a3;
+    color: #B22222;
     margin-right: 10px;
 }
 
