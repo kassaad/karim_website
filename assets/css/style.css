@@ -48,7 +48,7 @@ body, html{
 /* Link style
 ---------------------------------------------------------*/
 a {
-    color: #68c3a3;
+    color: #B22222;
 }
 a,
 a > * {
@@ -146,7 +146,7 @@ h6 {
 }
 
 .form-control:focus {
-    border-color: #68c3a3;
+    border-color: #B22222;
     box-shadow: none;
 }
 
@@ -424,7 +424,7 @@ SOCIAL ICON
 }
 
 .social-icons a i:hover::after{
-    background: #C0C0C0;
+    background: #B22222;
     border: 1px solid transparent;
     z-index: 0;
 }
@@ -475,7 +475,7 @@ SOCIAL ICON
     visibility: hidden;
     opacity:0;
     border: 1px solid #ddd;
-    border-top: 2px solid #C0C0C0;
+    border-top: 2px solid #B22222;
     border-radius: 0;
     border-bottom: 3px double #ddd;
     background-color: #FFFFFF;
@@ -526,7 +526,7 @@ SOCIAL ICON
 .navbar-custom .navbar-nav > li.active > a {
     background: none;
     outline: 0;
-    color: #C0C0C0;
+    color: #B22222;
 }
 
 .navbar-custom .navbar-brand {
@@ -1184,7 +1184,7 @@ Resume Timeline
 
 .links a i{
     position: relative;
-    color: #C0C0C0;
+    color: #B22222;
     font-size: 16px;
     margin: 0 13px;
     z-index: 100;
@@ -1199,7 +1199,7 @@ Resume Timeline
     top: -7px;
     width: 30px;
     height: 30px;
-    border: 1px solid #C0C0C0;
+    border: 1px solid #B22222;
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1209,14 +1209,14 @@ Resume Timeline
             transform: rotate(45deg);
 }
 .links a:hover i::after {
-    background-color: #C0C0C0;
+    background-color: #B22222;
 }
 
 .portfolio-info {
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #C0C0C0;
+    background-color: #B22222;
     color: #fff;
     height: 45px;
     width: 100%;
@@ -1326,7 +1326,7 @@ Resume Timeline
     top: -10px;
     width: 40px;
     height: 40px;
-    background-color: #C0C0C0;
+    background-color: #B22222;
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1378,7 +1378,7 @@ Resume Timeline
     color: #282828;
 }
 .entry-title a:hover{
-    color: #C0C0C0;
+    color: #B22222;
 }
 .entry-meta {
     color: #afafaf;
@@ -1395,7 +1395,7 @@ Resume Timeline
     font-weight: 400;
 }
 .entry-meta ul li a:hover{
-    color: #C0C0C0;
+    color: #B22222;
 }
 
 .blog-more {
@@ -1537,7 +1537,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #C0C0C0;
+	background-color: #B22222;
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -1797,7 +1797,7 @@ Icon for all respective meta
 }
 
 .personal-info h1 span{
-    color:#C0C0C0;
+    color:#B22222;
 }
 .personal-info p {
     margin-bottom: 40px;
