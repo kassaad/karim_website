@@ -113,6 +113,16 @@
 		margin-bottom:0;
 	}
 
+	#home:before {
+		content: "";
+		background-color: rgba(26, 30, 35, 0.85);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 50%;
+	}
+		
 	/*HOME TWO*/
 	#homeTwo:before{
 		width:100%;
