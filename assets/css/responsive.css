@@ -113,6 +113,9 @@
 		margin-bottom:0;
 	}
 
+	.facts-section{
+		background-size: contain;
+	}
 	#home {
 		background: url(../images/newton-cradle.jpg) no-repeat center center;
 		-webkit-background-attachment: fixed;
